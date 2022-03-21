@@ -1,0 +1,205 @@
+body {
+    font-family: 'Ubuntu', sans-serif;       
+
+}
+
+.header {
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+}
+
+.wrap {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+footer {
+ background-color: #F7F7F7;
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+
+.nav {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.nav>li {
+    margin-left: 15px;
+
+}
+
+.nav>li>a {
+    text-decoration: none;
+    color: #202020;
+}
+
+.logo_img {
+    background-image: url(../logo/mamon-logo.svg);
+    display: block;
+    width: 58px;
+    height: 58px;
+    margin-right: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+.logo_text {
+    font-size: 24px;
+    color: #202020;
+}
+
+.title-main {
+    font-size: 57px;
+    color: #202020;
+    font-weight: 700;
+}
+
+.text-main {
+    font-size: 32px;
+    color: #4F4F4F;
+    line-height: 1.5;
+}
+
+.nav_btn {
+    background-color: #5528FF;
+    color: white;
+    border-radius: 5px ;
+    padding: 4px 13px;
+    border: none;
+    font-weight: 700;
+
+}
+
+
+.page {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.page_top {
+    border-top: 1px solid #C2C2C2;
+}
+
+.page h2 {
+    position: absolute;
+    top: -26px;
+    background-color: #fff;
+    color: #C2C2C2;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 5px 15px;
+}
+
+.button {
+    background-color: #5528FF;
+    font-size: 24px;
+    color: white;
+    border-radius: 10px ;
+    padding: 15px 58px;
+    border: none;
+}
+
+.services {
+    display: grid;
+    grid-template:1fr 1fr / 1fr 1fr;
+}
+
+.services h3 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.services p {
+    font-size: 14px;
+    color:#B2B2B2;
+    line-height: 1.5;
+}
+
+.services_item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.services_img {
+    flex-basis: 120px;
+    text-align: center;
+}
+
+.services_text {
+    flex-basis: calc(100% - 120px);
+}
+
+.clients {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(4,25%);
+    row-gap: 40px;
+    text-align: center;
+}
+
+.team{
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.team-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    row-gap: 40px;
+}
+
+.team-item img{
+    margin-right: 20px;
+
+}
+
+.team-item>div {
+    flex-basis: calc(100% - 120px);
+}
+
+.box-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    
+}
+
+.social>li {
+    margin-left: 15px;
+}
+
+.social>li>a {
+    text-decoration: none;
+    color: #B2B2B2;
+    font-size: 24px;
+}
